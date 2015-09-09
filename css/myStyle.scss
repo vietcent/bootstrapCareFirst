@@ -1,0 +1,182 @@
+
+$border: solid thin black;
+$primarycolor: dodgerblue;
+$careFirstColor: cornflowerblue;
+$backgroundColor: whitesmoke;
+
+body{
+	background-color: $backgroundColor;
+}
+
+#wrapper{
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+.container-fluid{
+	background-color: white;
+}
+
+.small{
+	font-size: 10px;
+}
+
+.medium{
+	font-size: 12px;
+}
+
+.large{
+	font-size: 14px;
+}
+
+.themeTextColor{
+	color: $careFirstColor;
+}
+
+// div{
+// 	border: $border;
+// }
+
+.userSettings{
+	background-color: $backgroundColor;
+	font-size: 12pt;
+	ul{
+		float: right;
+		li:first-of-type{
+			border-left: none;
+		}
+		li{
+			display: inline-block;
+			border-left: solid thin black;
+			padding-left: 10px;
+			padding-right: 10px;
+			.glyphicon-cog{
+				margin-left: 10px;
+				color: $careFirstColor;
+			}
+			.glyphicon-envelope{
+				color: $careFirstColor;
+			}
+		}
+	}
+}
+.logoHeader{
+	.circleMagic{
+		background-color: white;
+	}
+	ul{
+		float: right;
+		li{
+			display: inline;
+			margin-left: 5px;
+			a{
+				
+			}
+		}
+	}
+}
+
+.navbar{
+	background-color: $primarycolor;
+	.container-fluid{
+		background-color: $careFirstColor;
+	}
+	ul{
+	}
+	li:first-of-type{
+		border-left: none;
+	}
+	li{
+		font-size: 10pt;
+		border-left: thin solid white;
+		a{
+			color: white;
+		}
+	}
+}
+
+.mainContent{
+	table{
+		width: 100%;
+	}
+	.sidePromotion{
+		img{
+			width: 100%;
+			
+		}
+	}
+}
+.sideBar{
+	
+.sidebarLinks{
+	h4{
+		
+	}
+	ul{
+		width: 100%;
+		li:first-of-type{
+			border-top: none;
+		}
+		li{
+			border-top:solid thin black;
+			list-style: none;
+			text-align: center;
+			span{
+				position: left;
+				color: $primarycolor;
+			}
+		}
+	}
+}
+
+.sidePromotion{
+		background-color: $careFirstColor;
+		height: 100%;
+		width: 100%;
+		img{
+			width: 100%;
+		}
+		p{
+			margin-top: 20px;
+			margin-bottom: 50px;
+			color: white;
+			text-align: center;
+		}
+	}
+}
+
+
+footer{
+	border: $border;
+	background-color: dimgrey;
+	color: white;
+	.footerContent{
+		margin-left: 200px;
+		margin-right: 200px;
+		.footerLeft{
+			float: left;
+			ul{
+				li{
+					display: inline-block;
+					margin-right: 100px;
+					font-size: 10pt;
+				}
+			}
+		}
+		.footerRight{
+			float: right;
+			
+		}
+	p{
+		color: white;
+	}
+	hr{
+		clear: both;
+	}
+	#termsAndConditions{
+		font-size: 8pt;
+	}
+	}
+}
+
+// Media Query

@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+	<link rel="stylesheet" href="css/myStyle.css">
+	<title>Bootstrap CareFirst</title>
+</head>
+
+<body>
+	<div class="container-fluid" id="wrapper">
+	<header>
+		<div class="container-fluid">
+			<!--header-->
+			<div class="userSettings row">
+				<div class="col-md-12">
+					<ul>
+						<li>John Smith<span class="glyphicon glyphicon-cog"></span></li>
+						<li><span class="glyphicon glyphicon-envelope"></span></li>
+						<li>Community College of Baltimore County</li>
+						<li><a href="#">Switch Account</a></li>
+						<li><a href="#">Log Out</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="logoHeader row">
+				<div class="col-md-6">
+					<div class="circleMagic">
+					<img src="images/careFirstBrand.png">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<ul>
+						<li><a href="#">Contact Us</a></li>
+						<li><span class="glyphicon glyphicon-print"></span></li>
+						<li>Text size: </li>
+						<li class="small themeTextColor">A</li>
+						<li class="medium themeTextColor">A</li>
+						<li class="large themeTextColor">A</li>
+					</ul>
+				</div>
+			</div>
+			
+			<nav class="navbar">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">My Coverage</a></li>
+							<li><a href="#">Claims</a></li>
+							<li><a href="#">Doctors</a></li>
+							<li><a href="#">Health & Wellness</a></li>
+							<li><a href="#">Plan Documents</a></li>
+							<li><a href="#">Estimate My Cost</a></li>
+							<li><a href="#">Help</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--end of header-->
+
+	<!--content-->
+	<div class="mainContent">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-9">
+					<h1>Welcome, John Smith <span class="glyphicon glyphicon-bell"></span><span class="badge">3</span></h1>
+					<h4 class="themeTextColor">Medical Plan Summary</h4>
+					<div class="planSummary row">
+						<table>
+							<tr>
+								<th><span class="title">Plan Type:</span></th>
+								<th><span class="title">Group Number:</span></th>
+								<th><span class="title">Subscriber:</span></th>
+							</tr>
+							<tr>
+								<td>BluePreferred PPO</td>
+								<td>1Jhw</td>
+								<td>Amy Sherwh</td>
+							</tr>
+							<tr>
+								<th><span class="title">Start Date:</span></th>
+								<th><span class="title">Member ID:</span></th>
+								<th><span class="title">PCP:</span></th>
+							</tr>
+							<tr>
+								<td>December 1, 2013</td>
+								<td>1923853</td>
+								<td>Dr. John Mwehsysky
+									<br> PCMH Provider
+								</td>
+							</tr>
+							<!--Plan Links-->
+							<tr>
+								<td><a class="bbListArrow" href="#">Coverage Details</a></td>
+								<td></td>
+								<td><a class="bbListArrow" href="#">My ID Cards</a></td>
+							</tr>
+						</table>
+						<div class="insuranceSummary row">
+							<table>
+								<tr>
+									<th><span class="title">PCP Copay:</span></th>
+									<th><span class="title">Specialist Copay:</span></th>
+								</tr>
+								<tr>
+									<td>$15</td>
+									<td>$35</td>
+									<td><a class="bbListArrow" href="#">My Benefits</a></td>
+								</tr>
+							</table>
+						</div>
+						<div class="paymentSummary row">
+							<ul>
+								<li id="deductible">
+									<h3>Deductible</h3>
+									<p>In Network</p>
+									<progress value="22" max="100"></progress>
+									<p>Met $300.00 Out of $1000.00</p>
+								</li>
+								<li id="outOfPocket">
+									<h3>Out of Pocket</h3>
+									<p>In Network</p>
+									<progress value="75" max="100"></progress>
+									<p>Met $600.00 Out of $1500.00</p>
+								</li>
+							</ul>
+						</div>
+						<div class="recentClaims row">
+							<h3>Recent Claims</h3>
+							<table>
+								<tr>
+									<td>3/20/2014</td>
+									<td>Dr. Whaleiry Iwrhey</td>
+									<td>You owe: $10.00</td>
+									<td>Finalized</td>
+								</tr>
+								<tr>
+									<td>3/20/2014</td>
+									<td>Dr. Whaleiry Iwrhey</td>
+									<td></td>
+									<td>Pending</td>
+								</tr>
+								<tr>
+									<td>3/20/2014</td>
+									<td>Dr. Whaleiry Iwrhey</td>
+									<td></td>
+									<td>Pending</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="blueRewards row">
+							blueRewards
+					</div>
+					<div class="findProvider row">
+						findProvider
+					</div>
+				</div>
+				<div class="col-md-3 sideBar">
+					<div class="sidebarLinks">
+						<h4>Quick Links</h4>
+						<ul>
+							<li><span class="glyphicon glyphicon-arrow-right">Pay My Bills Online</span></li>
+							<li><span class="glyphicon glyphicon-arrow-right">Blue Fund Administration</span></li>
+							<li><span class="glyphicon glyphicon-arrow-right"></span>BlueRewards</li>
+							<li><span class="glyphicon glyphicon-arrow-right">EOBs</span></li>
+							<li><span class="glyphicon glyphicon-arrow-right">My Claims</span></li>
+							<li><span class="glyphicon glyphicon-arrow-right">Select/Change PCP</span></li>
+							<li><span class="glyphicon glyphicon-arrow-right">Drug Pricing Tool</span></li>
+							<li><span class="glyphicon glyphicon-arrow-right">Treatment Cost Estimator</li>
+						</ul>
+					</div>
+					<div class="sidePromotion hidden-xs hidden-sm">
+						<img src="images/promotionGirl.png" alt="Promotion Girl">
+						<p>
+							New CareFirst
+							<br> Responsive Website Launched!
+						</p>
+						<p>
+							Now you can use
+							<br> Tablet & Mobile Devices to
+							<br> access My Account!
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!--end of content-->
+	</div>
+	<!--end of wrapper-->
+	<footer>
+			<!--footer-->
+			<div class="row" id="footer">
+				<div class="col-md-12">
+					<div class="footerContent">
+						<div class="topRow">
+							<div class="footerLeft">
+								<ul>
+									<li>FAQ</li>
+									<li>Site Demo</li>
+									<li>Terms and Agreements</li>
+								</ul>
+								<ul>
+									<li>Contact Us</li>
+									<li>Site Map</li>
+									<li>Privacy</li>
+								</ul>
+							</div>
+							<div class="footerRight">
+								<div class="todaysDate">
+								</div>
+								<ul>
+									<li>Connect with us</li>
+								</ul>
+							</div>
+						</div>
+						<hr>
+					<p id="termsAndConditions"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+						dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+						book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+						unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+						more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					</div>
+				</div>
+			</div>
+	</footer>
+	<!--end of footer-->
+	<!-- Latest compiled and minified JavaScript -->
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+	</script>
+</body>
+
+</html>

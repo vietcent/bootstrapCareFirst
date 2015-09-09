@@ -1,0 +1,109 @@
+body {
+  background-color: whitesmoke; }
+
+#wrapper {
+  margin-right: 200px;
+  margin-left: 200px; }
+
+.container-fluid {
+  background-color: white; }
+
+.small {
+  font-size: 10px; }
+
+.medium {
+  font-size: 12px; }
+
+.large {
+  font-size: 14px; }
+
+.themeTextColor {
+  color: cornflowerblue; }
+
+.userSettings {
+  background-color: whitesmoke;
+  font-size: 12pt; }
+  .userSettings ul {
+    float: right; }
+    .userSettings ul li:first-of-type {
+      border-left: none; }
+    .userSettings ul li {
+      display: inline-block;
+      border-left: solid thin black;
+      padding-left: 10px;
+      padding-right: 10px; }
+      .userSettings ul li .glyphicon-cog {
+        margin-left: 10px;
+        color: cornflowerblue; }
+      .userSettings ul li .glyphicon-envelope {
+        color: cornflowerblue; }
+
+.logoHeader .circleMagic {
+  background-color: white; }
+.logoHeader ul {
+  float: right; }
+  .logoHeader ul li {
+    display: inline;
+    margin-left: 5px; }
+
+.navbar {
+  background-color: dodgerblue; }
+  .navbar .container-fluid {
+    background-color: cornflowerblue; }
+  .navbar li:first-of-type {
+    border-left: none; }
+  .navbar li {
+    font-size: 10pt;
+    border-left: thin solid white; }
+    .navbar li a {
+      color: white; }
+
+.mainContent table {
+  width: 100%; }
+.mainContent .sidePromotion img {
+  width: 100%; }
+
+.sideBar .sidebarLinks ul {
+  width: 100%; }
+  .sideBar .sidebarLinks ul li:first-of-type {
+    border-top: none; }
+  .sideBar .sidebarLinks ul li {
+    border-top: solid thin black;
+    list-style: none;
+    text-align: center; }
+    .sideBar .sidebarLinks ul li span {
+      position: left;
+      color: dodgerblue; }
+.sideBar .sidePromotion {
+  background-color: cornflowerblue;
+  height: 100%;
+  width: 100%; }
+  .sideBar .sidePromotion img {
+    width: 100%; }
+  .sideBar .sidePromotion p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center; }
+
+footer {
+  border: solid thin black;
+  background-color: dimgrey;
+  color: white; }
+  footer .footerContent {
+    margin-left: 200px;
+    margin-right: 200px; }
+    footer .footerContent .footerLeft {
+      float: left; }
+      footer .footerContent .footerLeft ul li {
+        display: inline-block;
+        margin-right: 100px;
+        font-size: 10pt; }
+    footer .footerContent .footerRight {
+      float: right; }
+    footer .footerContent p {
+      color: white; }
+    footer .footerContent hr {
+      clear: both; }
+    footer .footerContent #termsAndConditions {
+      font-size: 8pt; }
